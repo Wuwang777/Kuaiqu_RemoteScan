@@ -2,10 +2,13 @@ version: '3.8'
 
 services:
   app:
-    build: .
+    build:
+      context: .
+      args:
+        PORT: ${PORT:-80}
     container_name: wechat-saoche
     ports:
-      - "80:80"
+      - "${PORT:-80}:${PORT:-80}"
     env_file:
       - .env
     restart: always
