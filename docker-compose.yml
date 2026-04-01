@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: wechat-saoche
+    ports:
+      - "80:80"
+    env_file:
+      - .env
+    restart: always
+    volumes:
+      - ./userData.json:/app/userData.json

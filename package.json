@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "canvas": "^3.2.0",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "qrcode": "^1.5.4",
+    "request": "^2.88.2",
+    "wechat": "^2.1.0"
+  },
+  "name": "saoche",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server_3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
