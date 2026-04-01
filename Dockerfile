@@ -26,8 +26,9 @@ RUN npm install --production
 # 复制项目所有文件到工作目录
 COPY . .
 
-# 暴露容器的运行端口
-EXPOSE 80
+# 动态暴露容器的运行端口
+ARG PORT=80
+EXPOSE ${PORT}
 
 # 启动命令
 CMD ["node", "server.js"]
