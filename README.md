@@ -49,18 +49,13 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+https://github.com/Wuwang777/Kuaiqu_RemoteScan
+cd Kuaiqu_RemoteScan
 ```
 
 ### 2. 配置环境变量
 
 复制并编辑 `.env` 文件，填入你的配置：
-
-```bash
-cp .env.example .env   # 如有示例文件
-# 或直接编辑 .env
-```
 
 | 变量名                    | 说明                                          | 是否必填 |
 | ------------------------- | --------------------------------------------- | -------- |
